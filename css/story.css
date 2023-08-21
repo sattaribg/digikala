@@ -1,0 +1,35 @@
+div.story {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+}
+div.s-one,
+div.s-two,
+div.s-three,
+div.s-four,
+div.s-five,
+div.s-six,
+div.s-seven,
+div.s-eight {
+  display: inline-block;
+  margin: 20px 80px 0px 0px;
+  cursor: pointer;
+}
+div.story div{
+  width: 80px;
+}
+div.story div a{
+  display: block;
+
+}
+div.story div a img{
+  width: 100%;
+  border-radius: 50%;
+  outline: 3px solid crimson;
+  padding: 3px;
+  box-sizing: border-box;
+}
+div.story h3 {
+  font-size: 13px;
+}

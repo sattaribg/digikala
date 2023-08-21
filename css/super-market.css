@@ -1,0 +1,97 @@
+@font-face {
+  font-family: sans;
+  src: url(../fonts/Iranian\ Sans.ttf);
+}
+
+ div.super-amazing  {
+  width: 80%;
+  display: inline-block;
+  height: 110px;
+  background-color: #eef1f0;
+  position: relative;
+  right: 10%;
+  top: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+div.super-amazing a{
+  height: inherit;
+}
+div.basket {
+  height: inherit;
+width: 100%;
+display: inline-block;
+}
+div.super-amazing  div.basket img {
+  display: inline-block;
+  width: 5%;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+}
+div.super-amazing  div.logo-amazing {
+  display: inline-block;
+  position: relative;
+  left: -130px;
+  bottom: 65px;
+}
+div.super-amazing  span.prozent {
+  position: absolute;
+  display: inline-block;
+  font-family: sans;
+  text-decoration: none;
+  top: 50px;
+  right: 420px;
+  color: whitesmoke;
+  background-color: #39ae00;
+  border-radius: 15px;
+  padding:5px 10px;
+  box-sizing: border-box;
+  font-family: sans;
+}
+div.super-amazing div.product-amazing{
+  width: 35%;
+  height: 100px;
+  position: absolute;
+  left: 350px;
+  top: 20px;
+  cursor: pointer;
+}
+div.super-amazing div.product-amazing div{
+  width: 75px;
+  height: 70px;
+  margin-left: 5px;
+  border-radius: 50%;
+  display: inline-block;
+}
+div.product-amazing{
+  position: absolute;
+}
+div.product-amazing div a img{
+  width: 100%;
+  border-radius: 50%;
+
+
+}
+div.product-amazing div a ~ span{
+  background-color: crimson;
+  color: whitesmoke ;
+  font-family: sans;
+  border-radius: 25%;
+  position: relative;
+  bottom: 20px;
+  font-size: 12px;
+}
+div.super-amazing a.more-product{
+width: auto;
+height:50px;
+  position: absolute;
+left: 120px;
+text-decoration: none;
+top: 35px;
+padding: 10px 10px;
+box-sizing: border-box;
+color: #39ae00;
+border-radius: 25px;
+background-color: white;
+}

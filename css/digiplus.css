@@ -1,0 +1,70 @@
+div.digiplus{
+width: 75%;
+height:385px ;
+background-color: #941b80;
+margin-right: 200px;
+position: relative;
+display: inline-block;
+overflow: hidden;
+border-radius: 10px;
+}
+div.digiplus img{
+    padding:20px 30px ;
+box-sizing: border-box;
+display: block;
+}
+div.digiplus img:nth-of-type(2){
+    width:350px;
+}
+div.digiplus h4{
+    color: whitesmoke;
+margin: 0px 10px 20px 0px;
+font-family: digi;
+font-weight: 300;
+}
+div.digiplus a.join{
+text-decoration: none;
+color: whitesmoke;
+display: inline-block;
+margin-right: 40px;
+border: 1px solid white;
+padding: 5px 15px ;
+box-sizing: border-box;
+border-radius: 15px;
+}
+div.dpluse-product{
+    width: 68%;
+    height: 95%;
+    background-color:white ;
+position: absolute;
+    left: 20px;
+    top: 10px;
+    border-radius: 15px;
+}
+div.dpluse-product h5{
+    font-size: 15px;
+    font-weight: 400;
+position: absolute;
+right: -200px;
+top: -15px;
+    
+}
+div.dpluse-product a.show-more{
+    all: unset;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    cursor: pointer;
+    color: #37c9e3;
+}
+div.dpluse-product a{
+ margin-top: 15px;
+    margin-right: 10PX;
+    width: 15%;
+    height: 150px;
+    display: inline-block;
+  
+}
+div.dpluse-product a img{
+    width:110%;
+}

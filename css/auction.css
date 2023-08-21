@@ -1,0 +1,112 @@
+div.auction{
+    width: 75%;
+    height: 875px;
+margin: 0 auto  ;
+border: 1px solid  rgb(224, 224, 230);
+border-radius: 10px;
+}
+div.auction h1{
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+div.auction h1 i{
+    margin-left: 10px;
+    font-size: 26px;
+    vertical-align: middle;
+    color: crimson;
+}
+div.auction div.line-first,div.line-second,div.line-third{
+    width: 100%;
+    height: 32%;
+    overflow: hidden;
+}
+div.auction div.line-first a{
+    display: inline-block;
+width: 240px;
+height: 250px;
+border-right: 1px solid  rgb(224, 224, 230) ;
+position: relative;
+margin:-4px;
+
+}
+div.auction div.line-second a{
+    display: inline-block;
+width: 240px;
+height: 250px;
+border-right: 1px solid  rgb(224, 224, 230) ;
+position: relative;
+margin:-4px;
+}
+div.auction div.line-third a{
+    display: inline-block;
+width: 240px;
+height: 250px;
+border-right: 1px solid  rgb(224, 224, 230) ;
+position: relative;
+margin: 0 auto;
+margin:-4px;
+
+
+}
+div.auction div.line-first a span:nth-of-type(1){
+    position: absolute;
+    left: 15px;
+    bottom:10px;
+}
+
+div.auction div.line-second a span:nth-of-type(1){
+    position: absolute;
+    left: 15px;
+    bottom:10px;
+}
+div.auction div.line-third a span:nth-of-type(1){
+    position: absolute;
+    left: 15px;
+    bottom:10px;
+}
+
+div.auction div.line-first a span:nth-of-type(2){
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    color: whitesmoke;
+    background-color: crimson;
+    border-radius: 15px;
+    padding:2px 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+div.auction div.line-second a span:nth-of-type(2){
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    color: whitesmoke;
+    background-color: crimson;
+    border-radius: 15px;
+    padding:2px 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+div.auction div.line-third a span:nth-of-type(2){
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    color: whitesmoke;
+    background-color: crimson;
+    border-radius: 15px;
+    padding:2px 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+div.auction div.line-first div img{
+    width:90%;
+    display: inline-block;
+}
+div.auction div.line-second div img{
+    width:90%;
+    display: inline-block;
+}
+div.auction div.line-third div img{
+    width:90%;
+    display: inline-block;
+}

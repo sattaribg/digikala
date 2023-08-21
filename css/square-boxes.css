@@ -1,0 +1,77 @@
+/* start make 4 time square boxes*/
+div.square {
+  width: 80%;
+  height: 250px;
+  margin-right: 190px;
+  display: inline-block;
+  text-align: center;
+}
+div.square div {
+  display: inline-block;
+  margin-right: 10px;
+}
+div.square div a {
+  display: block;
+  width: 330px;
+}
+div.square div a img {
+  border-radius: 20px;
+  width: 100%;
+}
+/*start make square boxes two*/
+div.square-two {
+  width: 80%;
+  height: 270px;
+  margin-right: 190px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
+}
+div.square-two a {
+  width: 655px;
+  display: inline-block;
+  margin-right: 15px;
+}
+div.square-two a img {
+  width: inherit;
+  border-radius: 15px;
+}
+/*end make square boxes two*/
+/*start make square boxes three*/
+div.square-three {
+  width: 80%;
+  height: 270px;
+  margin-right: 190px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
+}
+div.square-three a {
+  width: 655px;
+  display: inline-block;
+  margin-right: 15px;
+}
+div.square-three a img {
+  width: inherit;
+  border-radius: 15px;
+}
+/*end make square boxes three*/
+/*start make square boxes four*/
+div.square-four {
+    width: 80%;
+    height: 170px;
+    margin-right: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  div.square-four a {
+    width: 95%;
+    display: block;
+    margin-right: 15px;
+  }
+  div.square-four a img {
+    width: inherit;
+    border-radius: 15px;
+  }
+/*end make square boxes four*/

@@ -1,0 +1,178 @@
+
+::-webkit-scrollbar{
+    background-color:rgb(241, 242, 244);
+    width: 8px;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b8bbc2;
+    border-radius: 4px;
+}
+div.nav{
+    display: inline;
+}
+div.mega-menu{
+    width:calc(200vh);
+    height: 68vh;
+    background-color: white;
+    position: absolute;
+    top: 72%;
+    z-index: 2;
+    display:none;
+    box-sizing: border-box;
+}
+div:hover>div.mega-menu{
+    display: block;
+}
+
+div>div.mega-menu>div{
+    width: 14%;
+    height: inherit;
+    background-color: white;
+    box-sizing: border-box;
+    border-left: .8px solid rgb(241, 242, 244) ;
+    overflow: auto;
+    direction: ltr;
+}
+div.mega-menu>div>div{
+    width: auto;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 11px 7px;
+    border-bottom: .8px solid white;
+    
+}
+
+div.mega-menu>div>div>a{
+    width: auto;
+    height: 50px;
+    display: block;
+    line-height: 26px;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    font-family: digi;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: right;
+   
+    
+}
+div.mega-menu>div>div>a>i{
+    margin-left: 8px;
+    vertical-align:middle;
+    font-size: 14px;
+}
+div.mega-menu>div>div:hover{
+    background-color:rgb(241, 242, 244) ;
+    border-bottom-color:rgb(241, 242, 244);
+   
+}
+div.mega-menu>div>div:hover>a{
+    color: rgb(239, 57, 78);
+}
+div.mega-menu>div>div>a>div.inside-menu{
+    width: 86%;
+    height: 68vh;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    box-sizing: border-box;
+    display: none;
+    transition: 300ms;
+    direction:rtl;
+    overflow: auto;
+}
+
+div.mega-menu>div>div:hover>a>div.inside-menu{
+    display: block;
+}
+div.mega-menu>div>div>a>div.inside-menu>div.head-menu{
+    width: 100%;
+    height: 6.5vh;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+div.mega-menu>div>div>a>div.inside-menu>div.head-menu>h1{
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: digi;
+    line-height: 6.5vh;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+div.mega-menu>div>div>a>div.inside-menu>div.head-menu>h1>i{
+    font-size:10px;
+    margin-right: 8px;
+    vertical-align:middle;
+}
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu{
+    width: 20%;
+    height: 61.5vh;
+    display:inline-block;
+    margin-right: -4px;
+    box-sizing: border-box;
+    
+    direction: rtl;
+    vertical-align: top;
+}
+
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu-first{
+   margin-right: 0px;
+}
+
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu>h2{
+    font-size:.9vw;
+    font-family:digi;
+    font-weight:700;
+    color: rgb(8, 10, 56);
+    transition: 300ms;
+    box-sizing: border-box;
+    height: 26px;
+    margin-top: 4px;
+}
+
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu>h2>i.fa-pipe{
+    color:  rgb(239, 57, 78);
+    font-size: 14px;
+    margin-right:16px;
+    margin-left: 8px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu>h2>i.fa-angle-left{
+    color: rgb(8, 10, 56) ;
+    font-size:10px;
+    margin-right: 5px;
+    vertical-align:middle;
+    box-sizing: border-box;
+
+}
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu>h2:hover{
+    color: rgb(239, 57, 78) ;
+}
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu>h2:hover>i{
+    color: rgb(239, 57, 78) ;
+}
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu>h4{
+    font-size:.8vw;
+    font-family:digi;
+    color:rgb(118, 119, 144) ;
+    font-weight:400;
+    margin-right:16px;
+    box-sizing: border-box;
+    height: 26px;
+    margin-top: 4px;  
+
+}
+
+div.mega-menu>div>div>a>div.inside-menu>div.product-menu>h4:hover{
+    color: rgb(239, 57, 78) ;
+    
+}

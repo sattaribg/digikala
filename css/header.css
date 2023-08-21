@@ -1,0 +1,355 @@
+body {
+  min-height: 2000px;
+}
+@font-face {
+  font-family: digi;
+  src: url(../fonts/iranyekanwebregular.e31c09af.woff2);
+}
+* {
+  font-family: digi;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar{
+  width: 7px;
+  background-color:rgb(224, 224, 230) ;
+}
+::-webkit-scrollbar-thumb{
+  background-color: gray;
+border-radius: 10px;
+}
+/* start make header*/
+header{
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid #d0d0d0;
+ position: sticky;
+ top: 0;
+ z-index: 4;
+ background-color: white;
+}
+
+/* start make header pictur*/
+div.first-pic {
+  width: 100%;
+  height: 60px;
+}
+div.first-pic img {
+  width: 100%;
+  height: 60px;
+}
+
+/* end make header pictur*/
+/* start digi kala logo*/
+div.logo-one {
+  width: 15%;
+  height: 30px;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: border-box;
+}
+div.logo-one svg {
+  margin-right: 120px;
+  color: aqua;
+}
+/* end digi kala logo*/
+/*start make serach bar */
+div.search-bar {
+  width: 70%;
+  height: 40px;
+  display: inline-block;
+  margin-right: -4px;
+  margin-top: 20px;
+}
+input {
+  display: inline-block;
+  width: 42%;
+  height: 40px;
+  border-radius: 10px;
+  padding-right: 10px;
+  border: 1px solid gray;
+  outline: unset;
+  box-sizing: border-box;
+  background-color: #f1f2f4;
+}
+/*END of make serach bar */
+
+div.profile {
+  width: 15%;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+div.profile a {
+  display: inline-block;
+  width: 50%;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid #eed4d8;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+}
+span {
+  color: black;
+  text-decoration: none;
+}
+div.sep {
+  display: inline-block;
+  background-color: #d0d0d0;
+  width: 1px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+div.shopping-card {
+  width: 8%;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.shopping-card a {
+  width: inherit;
+  display: block;
+  border: unset;
+  margin-right: 15px;
+}
+div.shopping-card a svg {
+  width: 20px;
+  height: 40px;
+}
+/* start make menu nav*/
+nav{
+ margin-top: 20px;
+  position: relative;
+
+}
+nav div.navigation{
+  width: 55%;
+  height: 35px;
+  margin-right: 130px;
+  display: inline-block;
+}
+nav div.navigation a{
+  line-height: 35px;
+  vertical-align:middle;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  margin-right: 20px;
+}
+div.effectred{
+  width: 130px;
+  height: 2px;
+  background-color: red;
+position: absolute;
+right: -150px;
+
+}
+div.navigation div.nav:hover ~ div.effectred{
+top: 70%;
+  right: 150px;
+}
+#amazing:hover ~ div.effectred{
+  width: 90px;
+  right: 290px;
+}
+div.navigation a:nth-of-type(2):hover ~ div.effectred{
+  right: 390px;
+  width: 100px;
+}
+div.navigation a:nth-of-type(3):hover ~ div.effectred{
+  right: 500px;
+  width: 100px;
+}
+div.navigation a:nth-of-type(4):hover ~ div.effectred{
+  right: 610px;
+  width: 100px;
+}
+div.navigation a:nth-of-type(5):hover ~ div.effectred{
+  right: 740px;
+  width: 145px;
+}
+div.navigation a:nth-of-type(6):hover ~ div.effectred{
+  right:900px;
+  width: 100px;
+}div.navigation a:nth-of-type(7):hover ~ div.effectred{
+  right: 1010px;
+  width: 110px;
+}
+
+
+/*end make menu nav*/
+/*start make location choose nav*/
+nav > div.location {
+  width: fit-content;
+  height: 40px;
+  padding-bottom: 4px;
+  box-sizing: border-box;
+  margin-right: 320px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+  nav
+  > div.location
+  > label[for="show"] {
+  width: max-content;
+  color: rgb(63, 64, 100);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: digi;
+  font-weight: 400;
+  display: block;
+}
+header
+  > nav
+  > div.location
+  > label[for="show"]
+  > i {
+  margin-left: 8px;
+}
+#show,
+#close {
+  display: none;
+}
+#show:checked ~ div.show {
+  display: block;
+}
+
+ nav > div.location > div.show {
+  width: 450px;
+  height: 450px;
+  overflow: auto;
+  background-color: white;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  display: none;
+  border-radius: 8px;
+  overflow-x: hidden;
+}
+   nav
+  > div.location
+  > div.show
+  > div.top-show {
+  width: inherit;
+  height: 65px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  border-top: 0.8px solid rgb(224, 224, 230);
+  line-height: 59px;
+  display: inline-block;
+}
+   nav
+  > div.location
+  > div.show
+  > div.top-show
+  > p {
+  color: rgb(8, 10, 56);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: digi;
+}
+ nav
+  > div.location
+  > div.show
+  > div.top-show
+  > label[for="close"] {
+  color: crimson;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 12px;
+  top: 18px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 25px;
+  font-weight: 1000;
+  cursor: pointer;
+}
+ nav
+  > div.location
+  > div.show
+  > div.bottom-show
+  > div {
+  width: inherit;
+  height: inherit;
+  padding: 16px 20px;
+  box-sizing: border-box;
+}
+
+nav
+  > div.location
+  > div.show
+  > div.bottom-show
+  > div
+  > div.span {
+  width: 400px;
+  height: 56px;
+}
+ nav
+  > div.location
+  > div.show
+  > div.bottom-show
+  > div
+  > div
+  > span:nth-of-type(1) {
+  width: 400.2px;
+  height: 56.25px;
+  color: rgb(25, 191, 211);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: digi;
+}
+ nav
+  > div.location
+  > div.show
+  > div.bottom-show
+  > div
+  > div
+  > span:nth-of-type(1)
+  > i {
+  margin-left: 14px;
+  vertical-align: middle;
+}
+
+ nav
+  > div.location
+  > div.show
+  > div.bottom-show
+  > div
+  > div.span
+  > span {
+  width: 400.2px;
+  height: 56.25px;
+  color: rgb(63, 64, 100);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: digi;
+  display: inline-block;
+  box-sizing: border-box;
+  border-bottom: 0.8px solid rgb(224, 224, 230);
+  line-height: 56px;
+}
+ nav
+  > div.location
+  > div.show
+  > div.bottom-show
+  > div
+  > div.span
+  > span
+  > i {
+  font-size: 13px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  line-height: 56px;
+}
+/*end make location choose nav*/

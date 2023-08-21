@@ -1,0 +1,39 @@
+h5 {
+  display: inline-block;
+  margin: 20px 0px;
+  margin-right: 20%;
+}
+a.digimeg {
+  display: inline-block;
+  text-decoration: none;
+  transform: translate(-900px, 5px);
+  color: rgb(25, 191, 211);
+  font-size: 14px;
+}
+div.must-read-first,div.must-read-second,div.must-read-third,div.must-read-fourth{
+    display: inline-block;
+    width: 20%;
+    height: 320px;
+    margin-right: 10px;
+    border: 1px solid  rgb(224, 224, 230);
+    transform: translateX(-100px);
+    vertical-align: middle;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.must-read-first a,div.must-read-second a,div.must-read-third a,div.must-read-fourth a{
+text-decoration: none;
+color: black;
+
+}
+div.must-read-first a img,div.must-read-second a img,div.must-read-third a img,div.must-read-fourth a img{
+width:380px;
+border-radius: 10px;
+}
+div.must-read-first a p,div.must-read-second a p,div.must-read-third a p,div.must-read-fourth a p{
+padding: 5px 10px;
+box-sizing: border-box;
+text-align: justify;
+font-family: digi;
+font-size: 14px;
+}

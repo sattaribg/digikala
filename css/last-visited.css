@@ -1,0 +1,32 @@
+div.set {
+  width: 17%;
+  height: 420px;
+  border: 1px solid #e0e0e6;
+  display: inline-block;
+  margin: 20px -6px 10px 0px;
+  border-radius: 10px ;
+}
+.mr {
+  margin-right: 300px !important;
+}
+div.set h3,
+h5 {
+    padding: 3px 15px;
+    box-sizing: border-box;
+  font-weight: 300;
+}
+div.set a {
+  width: 50%;
+  height: 150px;
+ 
+}
+div.set a img {
+  width: 150px;
+}
+div.set a:nth-of-type(5) {
+  all: unset;
+  color: #37c9e3;
+  display: inline-block;
+  transform: translate(-120px, -13px);
+  cursor: pointer;
+}

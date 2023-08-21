@@ -1,0 +1,112 @@
+@font-face {
+  font-family: digi;
+  src: url(../fonts/iranyekanwebregular.e31c09af.woff2);
+  
+}
+@font-face {
+  font-family: sans;
+  src: url(../fonts/Iranian\ Sans.ttf);
+}
+/* start make digi option (eight box) css*/
+div.digi-option {
+  width: 90%;
+  height: 145px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+}
+div.jet,
+div.offer,
+div.digi-pay,
+div.organization,
+div.monthly,
+div.me-digikala,
+div.fast-delivery,
+div.more-info {
+  display: inline-block;
+  width: 85px;
+  text-align: center;
+  margin: 40px 100px 0px 0px;
+  vertical-align: middle;
+}
+div.digi-option img {
+  width: 50px;
+}
+div.digi-option a {
+  text-decoration: none;
+  color: #3f4064;
+  font-size: 12px;
+}
+div.digi-option h4 {
+  font-weight: 300;
+  font-family: digi;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+div.digi-option div.more-info a i {
+  font-size: 60px;
+  vertical-align: middle;
+}
+/* end make digi option (eight box) css*/
+
+/* make slider per view */
+div.swiper-slide {
+  display: flex;
+  flex-flow: column wrap;
+  
+}
+div.swiper-slide:nth-of-type(1){
+  background-color: transparent;
+}
+.allswiper {
+  background-color: #ef3c51;
+  width: 80%;
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-left: 2px solid crimson;
+  overflow: hidden;
+}
+div.logo-amaz  {
+  width: 100px;
+  box-sizing: border-box;
+  position: relative;
+top: -60px;
+}
+div.logo-amaz img:nth-of-type(1){
+  width: 100%;
+position: absolute;
+top: -50px;
+}
+div.logo-amaz img:nth-of-type(2){
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+div.logo-amaz a{
+  text-decoration: none;
+  color: whitesmoke;
+  position: absolute;
+  top: 170px;
+  left: 15%;
+  white-space: nowrap;
+}
+div.amazing-offer div.swiper-wrapper {
+  height: 270px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+span.percent {
+  margin-left: 15px;
+  background-color: #ef394e;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: sans;
+}
+span.gheymat{
+  font-family: sans;
+}
+/* end make slider per view */
